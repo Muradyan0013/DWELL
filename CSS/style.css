@@ -4,9 +4,29 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .iconify {
   color: white;
   margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+ul li {
+  float: left;
 }
 
 #a1 {
@@ -127,11 +147,11 @@
 }
 .section2img1 a {
   color: white;
-  text-decoration: none;
   font-family: "Oswald";
   font-size: 90px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  text-decoration: none !important;
 }
 .section2img1 a:hover {
   color: #E50E0B;
@@ -167,11 +187,11 @@
 }
 .section2img2 a {
   color: white;
-  text-decoration: none;
   font-family: "Oswald";
   font-size: 90px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  text-decoration: none !important;
 }
 .section2img2 a:hover {
   color: #E50E0B;
@@ -337,14 +357,55 @@ textarea:focus {
 @media only screen and (max-width: 1024px) {
   #jko {
     margin-top: 100px;
+    font-size: 42px;
+  }
+
+  #blockR1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .col-6 {
+    max-width: 100% !important;
+  }
+
+  .col-6 a {
+    font-size: 150px;
   }
 }
 @media only screen and (max-width: 1440px) {
-  #jjj {
-    width: 100% !important;
-  }
-
   .card-body .cTitle {
     font-size: 20px;
+  }
+
+  .col-4 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 100% !important;
+    -webkit-box-flex: 100% !important;
+        -ms-flex: 100% !important;
+            flex: 100% !important;
+  }
+
+  .card {
+    width: 80% !important;
+  }
+
+  .cImgBtn {
+    margin-top: 422px;
+  }
+
+  #blockR2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 800px;
   }
 }
