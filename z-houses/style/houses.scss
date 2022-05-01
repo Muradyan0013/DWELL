@@ -1,0 +1,100 @@
+.largeTxt{
+    font-family: "Oswald";
+    font-size: 48px;
+}
+.price{
+    font-family: "Oswald";
+    color: #e50e0b;
+    font-size: 24px;
+}
+.categoryTxt{
+    font-family: "Oswald";
+    font-weight: 200;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-align: end;
+    padding-top: 50px;
+}
+.homeImg{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.txtBold{
+    font-family: "Oswald";
+    font-size: 24px;
+}
+.defaultTxt{
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: black !important;
+}
+.cLargeTxt{
+    font-family: "Oswald";
+    font-size: 38px;
+    margin-bottom: 0;
+}
+.cDefaultTxt{
+    font-family: "Oswald";
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+}
+.formInput{
+    background-color: #fff !important;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    box-sizing: border-box;
+    border-color: grey;
+    outline: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    &:hover{
+    border-bottom-width: 2px;
+    margin-bottom: -1px;
+    }
+    &:focus{
+    border-bottom-width: 2px;
+    margin-bottom: -1px;
+    }
+}
+.formBtn{
+    background-color: #fff !important;
+    color: #E50E0B;
+    font-size: 26px;
+    font-family:"Oswald";
+    border: none;
+}
+
+
+@media only screen and (max-width:1440px) {
+    #mediaCol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-8{
+        max-width: 100% !important;
+        flex: 100% !important;
+    }
+    #txtBold{
+        text-align: center !important;
+    }
+    #defaultTxt{
+        text-align: center !important;
+    }
+    .cLargeTxt{
+        text-align: center !important;
+    }
+    .cDefaultTxt{
+        text-align: center !important;
+    }
+    
+}
